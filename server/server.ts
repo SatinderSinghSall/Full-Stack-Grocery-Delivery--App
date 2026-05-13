@@ -32,9 +32,6 @@ app.use(
   }),
 );
 
-app.options("*", cors());
-
-app.use(express.json());
 app.use(express.json());
 
 const port = process.env.PORT || 5000;
